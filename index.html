@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <title>LafutkinG</title>
+</head>
+<body>
+
+<!--svg-->
+<svg style ="display: none;">
+
+    <symbol id="vk" viewBox="0 0 76 66">
+        <g>
+            <path d="M37.9302 0.854126C16.9826 0.854126 0 15.4048 0 33.3541C0 51.3034 16.9826 65.8541 37.9302 65.8541C58.8777 65.8541 75.8603 51.3034 75.8603 33.3541C75.8603 15.4048 58.8777 0.854126 37.9302 0.854126ZM57.1704 36.8691C58.9382 38.3487 60.8086 39.7411 62.3956 41.3736C63.0987 42.0957 63.7615 42.8425 64.2659 43.6823C64.9861 44.8799 64.3358 46.1932 63.0848 46.2644L55.314 46.263C53.3071 46.4053 51.71 45.7118 50.3635 44.5361C49.2887 43.5992 48.2914 42.5984 47.2561 41.6296C46.8332 41.2319 46.3877 40.8576 45.8569 40.563C44.7976 39.9725 43.8772 40.1534 43.2703 41.1016C42.6517 42.0665 42.5105 43.1357 42.4515 44.2096C42.3669 45.7796 41.8144 46.1899 39.9759 46.2637C36.0474 46.4213 32.32 45.9106 28.8556 44.2136C25.7995 42.7168 23.4341 40.6042 21.3728 38.2123C17.359 33.5496 14.285 28.4321 11.523 23.1676C10.9014 21.982 11.3562 21.3476 12.8827 21.323C15.4189 21.2811 17.955 21.2864 20.4912 21.321C21.5234 21.3349 22.2063 21.841 22.6029 22.6755C23.9734 25.5648 25.6536 28.3137 27.7591 30.8632C28.3202 31.5421 28.8929 32.219 29.7085 32.6985C30.6088 33.2278 31.2948 33.0529 31.7193 32.1918C31.9909 31.6445 32.1081 31.0593 32.1671 30.4728C32.3689 28.464 32.3929 26.4558 32.0437 24.4549C31.8264 23.2028 31.0046 22.3942 29.5479 22.1575C28.806 22.0371 28.9146 21.8017 29.2755 21.4387C29.9018 20.811 30.4885 20.4226 31.6611 20.4226L40.4407 20.4213C41.8245 20.654 42.1349 21.186 42.3227 22.3803L42.3305 30.7402C42.3142 31.2023 42.6013 32.5721 43.5698 32.8747C44.3459 33.0941 44.8581 32.5608 45.3222 32.1399C47.4277 30.2255 48.9278 27.9659 50.2712 25.6273C50.8641 24.5959 51.3755 23.5287 51.8722 22.4594C52.2416 21.6688 52.8159 21.2798 53.8574 21.2931L62.3118 21.3017C62.5609 21.3017 62.8139 21.3037 63.0607 21.3403C64.4856 21.5491 64.8759 22.0744 64.4351 23.2653C63.7413 25.1365 62.3933 26.6952 61.0755 28.2579C59.6631 29.9309 58.1567 31.5454 56.7583 33.2258C55.4731 34.7618 55.5748 35.5352 57.1704 36.8691Z" fill="black"/>
+        </g>
+    </symbol>
+
+    <symbol id="email" viewBox="0 0 78 67">
+        <g>
+            <path d="M38.5737 0.354126C17.303 0.354126 0.0599518 15.1287 0.0599518 33.3541C0.0599518 51.5796 17.303 66.3541 38.5737 66.3541C59.8443 66.3541 77.0874 51.5796 77.0874 33.3541C77.0874 15.1287 59.8443 0.354126 38.5737 0.354126ZM55.9252 18.6875L38.5594 30.4507L20.6288 18.6875H55.9252ZM57.7118 48.0208H18.8415V23.6555L36.7589 35.3002C37.2392 35.6149 37.95 35.7723 38.523 35.7723C39.1097 35.7723 39.6189 35.6073 40.1046 35.2785L57.7118 23.2775V48.0208Z" fill="black"/>
+        </g>
+    </symbol>
+
+    <symbol id="github" viewBox="0 0 77 66">
+        <g>
+            <path d="M76.1477 32.8541C76.1477 49.1002 62.2358 62.5618 44.0619 64.9707C43.6516 65.0251 43.2383 65.0742 42.8234 65.1166C41.4889 65.2559 40.1327 65.3342 38.7594 65.3501C38.5783 65.3529 38.3988 65.3541 38.2176 65.3541C38.0364 65.3541 37.8568 65.3529 37.6757 65.3502C36.3025 65.3343 34.9462 65.256 33.6117 65.1167C33.1968 65.0743 32.7835 65.0252 32.3732 64.9709C14.1993 62.5618 0.287384 49.1002 0.287384 32.8541C0.287384 14.9049 17.2693 0.354126 38.2176 0.354126C59.1658 0.354126 76.1477 14.9049 76.1477 32.8541Z" fill="#F2F2F2"/>
+            <path d="M76.1477 32.8541C76.1477 34.0785 76.0688 35.2869 75.9139 36.4769C75.8969 36.6095 75.8798 36.7435 75.8613 36.8761C75.7638 37.55 75.6414 38.2185 75.4974 38.8792C75.4696 39.0105 75.4401 39.1405 75.4091 39.2692C72.7276 50.7503 62.9882 60.0453 50.2297 63.6893C48.3068 64.0077 47.6241 62.9955 47.6241 62.1293C47.6241 61.0588 47.6675 57.5593 47.6675 53.2109C47.6675 50.1785 46.4552 48.2006 45.096 47.1925C51.6648 46.5663 58.4938 44.7649 61.2031 38.119C61.2573 37.989 61.3084 37.8563 61.3579 37.7224C61.5096 37.3178 61.6443 36.8959 61.7651 36.4555C61.8006 36.3243 61.8363 36.1916 61.8688 36.0563C62.2234 34.617 62.4154 32.992 62.4154 31.156C62.4154 27.6088 60.9431 24.7091 58.5109 22.4328C58.9056 21.6143 60.2046 18.3086 58.1393 13.8316C58.1393 13.8316 54.9594 12.9588 47.7186 17.1639C44.6873 16.4435 41.4407 16.0827 38.2176 16.0695C34.9942 16.0827 31.7493 16.4437 28.7226 17.1639C21.4755 12.9588 18.2894 13.8316 18.2894 13.8316C16.2304 18.3086 17.5293 21.6143 17.9225 22.4328C15.4965 24.7091 14.0134 27.6089 14.0134 31.156C14.0134 32.9906 14.2054 34.6156 14.5614 36.0549C14.5939 36.1902 14.628 36.3229 14.6637 36.4541C14.7844 36.8945 14.9207 37.3177 15.0724 37.7223C15.1219 37.8562 15.1747 37.9889 15.2273 38.1189C17.935 44.7528 24.7454 46.5795 31.2957 47.2176C30.2104 48.0295 29.2274 49.4634 28.8867 51.5646C26.7223 52.395 21.2325 53.8303 17.8498 48.8624C17.8498 48.8624 15.8433 45.7424 12.0349 45.5129C12.0349 45.5129 8.33317 45.4717 11.7764 47.4881C11.7764 47.4881 14.2612 48.4884 15.9874 52.2438C15.9874 52.2438 18.2137 58.0447 28.766 56.0788C28.783 58.7942 28.8171 61.3545 28.8171 62.1291C28.8171 62.9873 28.1219 63.9942 26.2254 63.6931C13.4592 60.0519 3.7088 50.7557 1.02584 39.2692V39.2679C0.994871 39.1392 0.965386 39.0092 0.939161 38.8792C0.793663 38.2185 0.671279 37.55 0.575268 36.8761C0.555118 36.7435 0.538079 36.6108 0.52104 36.4769C0.366356 35.2869 0.287384 34.0785 0.287384 32.8541C0.287384 14.9049 17.2724 0.354126 38.2176 0.354126C59.1643 0.354126 76.1477 14.9049 76.1477 32.8541Z" fill="#222123"/>
+            <path d="M14.3153 46.5267C14.0414 46.4152 13.744 46.4617 13.6621 46.6275C13.5737 46.7894 13.7271 47.0095 14.0027 47.1156C14.2737 47.2271 14.5693 47.1794 14.653 47.0175C14.7488 46.8556 14.5909 46.6328 14.3153 46.5267Z" fill="#222123"/>
+            <path d="M16.0817 47.8094C15.8325 47.584 15.4903 47.5163 15.3046 47.6595C15.1204 47.8054 15.1668 48.1092 15.4146 48.3348C15.6546 48.5616 16.009 48.6293 16.1902 48.486C16.3791 48.34 16.3295 48.0388 16.0817 47.8094Z" fill="#222123"/>
+            <path d="M17.6904 49.575C17.452 49.2884 17.0773 49.1638 16.8435 49.3018C16.6051 49.441 16.6051 49.7872 16.8372 50.0764C17.0725 50.3656 17.4518 50.4956 17.6856 50.3564C17.9225 50.2157 17.9225 49.8682 17.6904 49.575Z" fill="#222123"/>
+            <path d="M19.5264 51.3353C19.1997 51.0687 18.7539 51.0143 18.5434 51.2106C18.3359 51.4069 18.4272 51.7798 18.7585 52.041C19.0836 52.309 19.5264 52.3621 19.7339 52.1657C19.9554 51.9707 19.8548 51.5967 19.5264 51.3353Z" fill="#222123"/>
+            <path d="M21.94 52.5491C21.5065 52.4337 21.0777 52.5545 20.9894 52.8104C20.9027 53.0678 21.1829 53.3662 21.6117 53.4777C22.0421 53.5851 22.4678 53.4697 22.5607 53.215C22.6491 52.9564 22.369 52.6606 21.94 52.5491Z" fill="#222123"/>
+            <path d="M24.8445 52.9365C24.3908 52.9431 24.0348 53.162 24.0348 53.4326C24.0394 53.6966 24.4064 53.9142 24.8599 53.9049C25.3105 53.901 25.6758 53.678 25.6649 53.4102C25.665 53.1448 25.2949 52.9285 24.8445 52.9365Z" fill="#222123"/>
+            <path d="M28.5538 52.9895C28.4965 52.7229 28.0941 52.5664 27.6466 52.6327C27.2054 52.7016 26.8866 52.9709 26.9423 53.2389C26.998 53.4976 27.4051 53.6593 27.8464 53.5904C28.2938 53.5188 28.6066 53.2509 28.5538 52.9895Z" fill="#222123"/>
+        </g>
+    </symbol>
+
+</svg>
+
+<!--/.svg-->
+
+<!--Loader-->
+<div class="mask">
+    <div class="loader"></div>
+</div>
+
+<!--Page-->
+<section class="page" id="page">
+<!--Header-->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <nav class="navigation" id="navigation">
+                <a class="nav__link" href="#works">Works</a>
+                <a class="nav__link" href="#about">About me</a>
+                <a class="nav__link" href="#contact">Contact me</a>
+            </nav>
+
+            <button class="burger" type="button" id="burgerButton">
+                <span class="burger__item"></span>
+            </button>
+
+        </div>
+    </div>
+</header>
+<!--/.Header-->
+
+<!--Intro-->
+<section class="intro">
+    <div class="container">
+
+        <div class="intro__inner _animation">
+            <h6 class="intro__suptitle">My name is</h6>
+            <h1 class="intro__title">- Lafutkin Grigoriy -</h1>
+            <h6 class="intro__suptitle">and</h6>
+            <h2 class="intro__text">I'm Front-end Developer</h2>
+
+            <a class="button" href="#contact">Contact me</a>
+        </div>
+    </div>
+</section>
+<!--/.Intro-->
+
+<!--Social-->
+<section class="social">
+    <div class="container">
+        <div class="social__inner">
+            <div class="social__list _animation">
+
+                <a class="social__item" href="https://vk.com/grisha_lafutkin" target="_blank">
+                    <svg class="social__icon">
+                        <use xlink:href="#vk"></use>
+                    </svg>
+                </a>
+                <a class="social__item" href="mailto:grigoriylafutkin@yandex.ru" target="_blank">
+                    <svg class="social__icon">
+                        <use xlink:href="#email"></use>
+                    </svg>
+                </a>
+                <a class="social__item" href="https://github.com/arcqk5" target="_blank">
+                    <svg class="social__icon">
+                        <use xlink:href="#github"></use>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--/.Social-->
+</section>
+<!--/.Page-->
+
+
+
+<!--Works-->
+<section class="works" id="works">
+    <div class="container">
+        <div class="works__inner">
+            <h1 class="title _animation">- Works -</h1>
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="works__item _animation">
+                        <a class="works__link" href="#">
+                            <img class="works__img" src="img/bg.jpg" alt="">
+                        </a>
+                        <div class="works__content">
+                            <div class="works__title">Lorem ipsum.</div>
+                            <div class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe soluta, ipsam enim in commodi nobis!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="works__item _animation">
+                        <a class="works__link" href="#">
+                            <img class="works__img" src="img/bg.jpg" alt="">
+                        </a>
+                        <div class="works__content">
+                            <div class="works__title">Lorem ipsum.</div>
+                            <div class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe soluta, ipsam enim in commodi nobis!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="works__item _animation">
+                        <a class="works__link" href="#">
+                            <img class="works__img" src="img/bg.jpg" alt="">
+                        </a>
+                        <div class="works__content">
+                            <div class="works__title">Lorem ipsum.</div>
+                            <div class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe soluta, ipsam enim in commodi nobis!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="works__item _animation">
+                        <a class="works__link" href="#">
+                            <img class="works__img" src="img/bg.jpg" alt="">
+                        </a>
+                        <div class="works__content">
+                            <div class="works__title">Lorem ipsum.</div>
+                            <div class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe soluta, ipsam enim in commodi nobis!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="works__item _animation">
+                        <a class="works__link" href="#">
+                            <img class="works__img" src="img/bg.jpg" alt="">
+                        </a>
+                        <div class="works__content">
+                            <div class="works__title">Lorem ipsum.</div>
+                            <div class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe soluta, ipsam enim in commodi nobis!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="works__item _animation">
+                        <a class="works__link" href="#">
+                            <img class="works__img" src="img/bg.jpg" alt="">
+                        </a>
+                        <div class="works__content">
+                            <div class="works__title">Lorem ipsum.</div>
+                            <div class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe soluta, ipsam enim in commodi nobis!</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--/.Works-->
+
+<!--About-->
+<section class="about" id="about">
+    <div class="container">
+        <div class="about__inner">
+            <h1 class="title _animation">- About me -</h1>
+
+            <div class="about__top">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="top__text _animation">
+                            My name is <span class="text--bolt">Grigory Lafutkin</span> <br> I study at the <span class="text--bolt">BMSTU</span> <br>
+                            I’m a <span class="text--bolt">front-end developer</span> and <span class="text--bolt">UX/UI designer</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="about__img">
+                            <img class="image _animation" src="img/bg2.jpg" alt="I">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about__skills">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="skills__text _animation">
+                            <div class="skills__title title--semibolt">My Skills</div>
+                            <div class="skills__subtitle">I like to work on non-standard projects, as it increases skills and moves skills to a new level</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="skills">
+                           <div class="skills__inner">
+
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">Basic skills</div>
+                                    <div class="skills__subtitle">HTML5, CSS3, JavaScript, GIT</div>
+                                </div>
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">JavaScript framework</div>
+                                    <div class="skills__subtitle">React.js and Jquery.js</div>
+                                </div>
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">CSS preprocessor</div>
+                                    <div class="skills__subtitle">SASS/SCSS and LESS</div>
+                                </div>
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">CSS framework</div>
+                                    <div class="skills__subtitle">Bootstrap 4</div>
+                                </div>
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">Task runner</div>
+                                    <div class="skills__subtitle">Gulp and WebPack</div>
+                                </div>
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">CMS</div>
+                                    <div class="skills__subtitle">Wordpress and October</div>
+                                </div>
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">Development environment</div>
+                                    <div class="skills__subtitle">VScode, Brackets, Atom, Sublime Text</div>
+                                </div>
+                                <div class="skills__item _animation">
+                                    <div class="skills__title">Graphic editor</div>
+                                    <div class="skills__subtitle">Figma, Adobe Xd, Photoshop</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--/.about-->
+
+<!--Contacts-->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact__inner">
+            <h1 class="title _animation">- Contact me -</h1>
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="contact__content">
+                        <div class="contact__question _animation"><span class="medium">Any other questions?</span><br>I will be happy to help you. <br>Contact me in any way convenient for you! <br>
+                        </div>
+
+                        <div class="social__list _animation">
+                            <a class="social__item" href="https://vk.com/grisha_lafutkin" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#vk"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="mailto:grigoriylafutkin@yandex.ru" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#email"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://github.com/arcqk5" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#github"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <form class="form" action="/" method="post">
+                        <div class="form__inner">
+                            <div class="form__group">
+                                <div class="form__input">
+
+                                    <input class="input--form _animation" type="text" name="name" placeholder="Name">
+                                    <input class="input--form _animation" type="email" name="email" placeholder="Email">
+
+                                </div>
+
+                                <div class="form__textarea">
+                                    <textarea class="textarea--form _animation" name="Massege" placeholder="Massege" id="Massege"></textarea>
+                                </div>
+                            </div>
+                            <div class="form__btn _animation">
+                                <button class="button button--form" type="submit">Contact me</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/.Contacts-->
+
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+
+            <div class="copyright">Copyright © 2020 LafutkinGrigoriy.</div>
+
+        </div>
+    </div>
+</footer>
+<!--/.footer-->
+
+<!--script-->
+<script src="js/MainBackground/three.min.js"></script>
+<script src="js/MainBackground/vanta.net.min.js"></script>
+<script src="js/app.js"></script>
+<!--/.script-->
+
+</body>
+</html>
