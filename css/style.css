@@ -280,6 +280,10 @@ textarea {
     padding: 80px 0;
 }
 
+.works--row {
+    justify-content: center;
+}
+
 .works__item {
     text-align: center;
     margin-bottom: 35px;
@@ -302,6 +306,7 @@ textarea {
 
 .works__img {
     width: 100%;
+    max-height: 125px;
     transition: .6s;
 }
 
